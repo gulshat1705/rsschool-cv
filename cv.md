@@ -37,11 +37,10 @@ ____________
 function sum(a, b) {
   return a + b;
 }
+let result = sum(1, 2);
+
+alert( result );
 ```
-`let result = sum(1, 2);`
-
-`alert( result );`
-
 ____________
 
 ### Education
