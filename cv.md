@@ -5,10 +5,10 @@ __________
 
 >### Contacts
 - __e-mail:__ <arkytbekovagulshat@gmail.com>
-- __telegram:__ <@g_arkytbekova> 
+- __telegram:__ @g_arkytbekova
 - __whatsapp:__ +996 771 67 67 51
 - __Phone:__ +996 771 67 67 51
-- __github:__ <@gulshat1705>
+- __github:__ @gulshat1705
 - __discord:__ gulshat#4653
 - __LinkedIn:__ <https://www.linkedin.com/in/gulshat-arkytbekova-b396b3170>
 
@@ -30,6 +30,8 @@ ____________
 - Git
 - JQuery
 
+____________
+
 >### Code example
 ```
 function sum(a, b) {
@@ -38,18 +40,25 @@ function sum(a, b) {
 ```
 
 `let result = sum(1, 2);`
+
 `alert( result );`
 
+____________
 
 >### Education
 - 2013 - Bachelor's degree - Kyrgyz-Turkish University Manas / Economics and Management faculty
 
+
+____________
+
 >### Experience
 - Accountant - 3 years
 - freelance work
-    - <meshki.kg>
+    - <https://www.meshki.kg>
 - academic work
-    - <creative.kg>
+    - <https://www.creative.kg>
+
+____________
 
 >### Languages
  - English - A2
