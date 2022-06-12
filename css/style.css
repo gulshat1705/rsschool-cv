@@ -16,7 +16,48 @@ body{
 	min-width: 320px;
 	margin: 0 auto;	
 }
-header{
-    background-color: #008080;
-    
+.header{
+    background-color: #f7c1ac;
+    padding: 20px 0;    
+}
+.main-nav{
+    text-align: right;
+}
+.menu-item{
+    display: inline-block;    
+}
+.menu-link{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #010118;;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.menu-link:last-child{
+    padding-right: 0;
+}
+.menu-link:hover{
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content{
+    width: 420px;
+}
+.main-info{
+    width: 50%;
+    text-align: center;
+}
+.name{
+    padding: 50px 10px 5px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;   
+    font-size: 40px;
+}
+.position{
+    background-color: goldenrod;
+    font-size: 22px;
+    color: #ffffff;
 }
