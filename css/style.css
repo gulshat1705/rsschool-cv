@@ -12,11 +12,12 @@ body{
 	min-width: 320px;
 }
 .container{
-	max-width: 1200px;	
+	max-width: 960px;	
 	min-width: 320px;
 	margin: 0 auto;	
 }
-.header{
+.header,
+.footer{
     background-color: #f7c1ac;
     padding: 20px 0;    
 }
@@ -39,25 +40,33 @@ body{
 .menu-link:hover{
     color: #ffffff;
 }
-.main{
+.profile{
     display: flex;
     flex-wrap: wrap;
 }
 .main-content{
-    width: 420px;
+    width: 315px;
 }
 .main-info{
-    width: 50%;
+    width: 60%;
     text-align: center;
+    margin: auto 30px;
 }
 .name{
-    padding: 50px 10px 5px;
+    padding: 10px;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;   
     font-size: 40px;
 }
 .position{
-    background-color: goldenrod;
+    background-color: #daa520;
     font-size: 22px;
     color: #ffffff;
+}
+.contacts{
+    width: 315px;
+    background: #daa520;
+}
+.block-content{
+    display: flex;
 }
