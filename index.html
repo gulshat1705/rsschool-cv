@@ -16,80 +16,99 @@
   <header class="header">
     <nav class="main-nav container">
       <ul class="menu">
-        <li class="menu-item"><a class="menu-link" href="/">contacts</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">summary</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">skills</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">code</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">projects</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">education</a></li class="menu-item">
-        <li class="menu-item"><a class="menu-link" href="/">english</a></li class="menu-item">
+        <li class="menu__item">
+          <a class="menu__link" href="#contacts">contacts</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#summary">summary</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#skills">skills</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#code">code</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projects">projects</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#education">education</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projects">english</a>
+        </li>
       </ul>
-    </nav>
+    </nav><!--end menu-->
   </header>
   <div class="container">
-    <section class="profile">
-      <div class="main-content">
-        <img class="profile-pic" src="img/avatar.jpg" width="315" height="315" alt="avatar Frontend Developer">
+    <article class="profile">
+      <div class="profile__content">
+        <img class="profile__pic" src="img/avatar.jpg" width="315" height="315" alt="avatar Frontend Developer">
       </div>
-      <div class="main-info">
-        <h2 class="profile-name">Gulshat Arkytbekova</h2>
-        <h1 class="position">Frontend Developer</h1>
+      <div class="personal-info">
+        <h1 class="first-name">Gulshat Arkytbekova</h1>
+        <h3 class="position">Frontend Developer</h3>
       </div>
-    </section> 
+    </article> <!--end avatar block-->
     <span class="border"></span>
     <div class="block-content">
-      <aside class="right-aside">
-        <section class="contacts">
+      <aside class="left-aside">
+        <section class="left-section" id="contacts">
           <h3 class="title">contacts</h3>
-          <div class="contact-items">
-            <div class="contact-item">
-              <i class="fa-solid fa-location-dot contact-icon"></i>
-              <span class="contact-txt">Bishkek, Kyrgyzstan</span>
-            </div>
-            <div class="contact-item">
-              <i class="fa-solid fa-envelope contact-icon"></i>
-              <span class="contact-txt">arkytbekovagulshat@gmail.com</span>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-solid fa-phone contact-icon"></i>
-              <span class="contact-txt">+996 771 67 67 51</span>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-brands fa-telegram contact-icon"></i>
-              <a class="contact-txt" href="#">@g_arkytbekova</a>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-brands fa-whatsapp contact-icon"></i>
-              <a class="contact-txt" href="#">+996 771 67 67 51</a>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-brands fa-github contact-icon"></i>
-              <a class="contact-txt" href="https://github.com/gulshat1705/">gulshat1705</a>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-brands fa-linkedin contact-icon"></i>
-              <a class="contact-txt" href="https://www.linkedin.com/in/gulshat-arkytbekova-b396b3170
+          <ul class="contacts__items">
+            <li class="contacts__item">
+              <i class="fa-solid fa-location-dot contacts__icon"></i>
+              <span class="contacts__txt">Bishkek, Kyrgyzstan</span>
+            </li>
+            <li class="contacts__item">
+              <i class="fa-solid fa-envelope contacts__icon"></i>
+              <span class="contacts__txt">arkytbekovagulshat@gmail.com</span>              
+            </li>
+            <li class="contacts__item">
+              <i class="fa-solid fa-phone contacts__icon"></i>
+              <span class="contacts__txt">+996 771 67 67 51</span>              
+            </li>
+            <li class="contacts__item">
+              <i class="fa-brands fa-telegram contacts__icon"></i>
+              <a class="contacts__txt" href="#">@g_arkytbekova</a>              
+            </li>
+            <li class="contacts__item">
+              <i class="fa-brands fa-whatsapp contacts__icon"></i>
+              <a class="contacts__txt" href="#">+996 771 67 67 51</a>              
+            </li>
+            <li class="contacts__item">
+              <i class="fa-brands fa-github contacts__icon"></i>
+              <a class="contacts__txt" href="https://github.com/gulshat1705/">gulshat1705</a>              
+            </li>
+            <li class="contacts__item">
+              <i class="fa-brands fa-linkedin contacts__icon"></i>
+              <a class="contacts__txt" href="https://www.linkedin.com/in/gulshat-arkytbekova-b396b3170
               ">Gulshat Arkytbekova</a>              
-            </div>
-            <div class="contact-item">
-              <i class="fa-brands fa-discord contact-icon"></i>
-              <span class="contact-txt">gulshat#4653</span>              
-            </div>
-          </div>
+            </li>
+            <li class="contacts__item">
+              <i class="fa-brands fa-discord contacts__icon"></i>
+              <span class="contacts__txt">gulshat#4653</span>              
+            </li>
+          </ul>
         </section>
-        <section class="educations">
-          <h3 class="title">education</h3>
+        <section class="left-section" id="education">
+          <h2 class="title">education</h2>
           <div class="edu-txt">
-            <p>Bachelor’s degree</p>
+            <p class="bold-txt">Bachelor’s degree</p>
             <p>Economics and Management faculty</p>
             <p>Kyrgyz-Turkish University Manas /2013 </p>
           </div>  
         </section>
-
+        <section class="left-section">
+          <h2 class="title">courses</h2>
+          <ul class="skills-items">
+            <li class="skill course">RS school:<br>Fontend Javascript Stage 0</li>
+          </ul> 
+        </section> 
       </aside>
       <main class="main">
-          <section class="section">
-            <h3 class="title">summary</h3>
+          <section class="section" id="summary">
+            <h2 class="title">summary</h2>
             <p class="about-txt">I am an economist by profession. In recent years I have been working as an accountant.
                During maternity leave I wanted to learn something new, and on the advice of a friend I 
                decided to learn web development. I began to independently study html, css, I was very interested. 
@@ -98,8 +117,8 @@
             </p>      
           </section>
           <span class="tight-border"></span>          
-          <section class="section skills" >
-            <h3 class="title">skills</h3>
+          <section class="section skills" id="skills">
+            <h2 class="title">skills</h2>
             <ul class="skills-items">
               <li class="skill">Web-development:
                 <span>HTML5, CSS3, Javascript</span>
@@ -116,7 +135,7 @@
             </ul>
           </section>
           <span class="tight-border"></span>  
-          <section class="section code">
+          <section class="section code" id="code">
             <h3 class="title">code examples</h3>
             <pre class="code-txt">
               function sum(a, b) {
@@ -127,31 +146,34 @@
               alert( result );              
             </pre>
           </section>
-          <section class="experience">
-            <div>
+          <span class="tight-border"></span> 
+          <section class="project-items" id="projects">
+            <div class="project-item">
               <h3 class="title">projects</h3>
               <ul class="projects">
                 <li class="project"><a href="https://www.meshki.kg/">www.meshki.kg/</a></li>
                 <li class="project"><a href="https://www.creative.kg/">www.creative.kg/</a></li>
               </ul>
             </div>
+            <div class="project-item">
+              <h3 class="title">foreign languages</h3>
+              <ul class="projects">
+                <li class="project">English: <span>A2</span></li>
+                <li class="project">Turkish: <span>Fluent</span></li>
+              </ul>
+            </div>
           </section>
-
       </main>
-    </div>
-
-    
+    </div>    
   </div>
   <footer class="footer">
     <div class="container">
-      <p class="footer-copy">2022 gulshatarkytbekova</p>
+      <i class="fa-solid fa-copyright copyright">2022</i>
+      <a class="footer-link" href="https://github.com/gulshat1705">gulshat1705</a>
+      <a class="rsschool-link" href="https://rs.school/">
+        <img class="rsscholl-img" src="img/rs_school_js.svg" alt="rs school javascript">
+      </a>
     </div>
-      
-      
-   
-
-  </footer>
-  
-    
+  </footer>    
 </body>
 </html>

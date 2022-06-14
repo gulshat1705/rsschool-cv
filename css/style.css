@@ -3,6 +3,9 @@ font-family: 'Rajdhani', sans-serif*/
 *{
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth; 
+}
 body{
 	font-family: 'Joan', Arial, sans-serif;
 	color: #010118;
@@ -12,53 +15,80 @@ body{
 	min-width: 320px;
 }
 .container{
+    position: relative;
 	max-width: 960px;	
 	min-width: 320px;
 	margin: 0 auto;	
+}
+@media (max-width: 1040px) {
+    .container {
+      max-width: 760px;
+    }
 }
 .header,
 .footer{
     background-color: #f7c1ac;
     padding: 20px 0;    
 }
+.title{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;   
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/***START MENU***/
 .main-nav{
     text-align: right;
 }
-.menu-item{
+.menu__item{
     display: inline-block;    
 }
-.menu-link{
+.menu__link{
     padding: 10px 20px;
     font-size: 20px;
     color: #010118;;
     text-transform: capitalize;
     text-decoration: none;
 }
-.menu-link:last-child{
+.menu__link:last-child{
     padding-right: 0;
 }
-.menu-link:hover{
+.menu__link:hover{
     color: #ffffff;
 }
+/***START AVATAR BLOCK***/
 .profile{
     display: flex;
     flex-wrap: wrap;
 }
-.main-content,
+.profile__content,
 .contacts,
 .about-title{
     width: 315px;
 }
-.main-info{
+@media (max-width: 1040px) {
+    .profile__content {
+      width: 100%;
+      text-align: center;
+    }
+}
+.personal-info{
     width: 60%;
     text-align: center;
     margin: auto 30px;
 }
-.profile-pic{
-    padding: 30px;
+@media (max-width: 1040px) {
+    .personal-info {
+      width: 100%;
+      text-align: center;
+    }
+}
+.profile__pic{
+    padding: 5px;
     border-radius: 50%;
 }
-.profile-name{
+.first-name{
     padding: 10px;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;   
@@ -69,23 +99,8 @@ body{
     font-size: 22px;
     color: #ffffff;
 }
-.right-aside{
-    background: #daa520;
-    margin-right: 15px;
-    padding: 15px;
-}
-.right-aside section{
-    padding: 15px 5px;
-}
 .block-content{
     display: flex;
-}
-.title{
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;   
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
 }
 .border{
     display: block;
@@ -94,13 +109,60 @@ body{
     height: 8px;
     background-color: rgba(218, 165, 32, 0.7);
 }
+/***LEFT BLOCK **/
+.left-aside{
+    background: #daa520;
+    margin-right: 15px;
+    padding: 10px;
+}
+.left-section{
+    padding: 15px 5px;
+}
+.left-section .title,
+.left-section .title{
+    margin: 0 -15px;
+    padding: 5px;
+    font-weight: 400;
+    background: #010118;
+    color: #ffffff;
+}
+.contacts__item{
+    display: flex;
+    padding: 10px 5px;
+}
+.contacts__icon{
+    display: block;
+    width: 30px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.contacts__txt{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #010118;
+    text-decoration: none;
+}
+.contacts__item .contacts__txt:hover{
+    color: #f7c1ac;
+}
+.edu-txt{
+    padding: 15px 0;
+}
+.edu-txt p{
+    padding: 5px;
+}
+.bold-txt{
+    color: #010118;
+    font-style: italic;
+    font-weight: 400;
+}
+/***MAIN BLOCK**/
 .tight-border{
     display: block;
     width: 100%;
     margin: 15px -50px 15px -15px;
     height: 1px;
     background-color: #daa520;
-
 }
 .main{
     width: 64%;
@@ -108,40 +170,11 @@ body{
 .about-txt{
     text-align: justify;
 }
-.contacts .title,
-.educations .title{
-    margin: 0 -20px;
-    padding: 5px;
-    font-weight: 400;
-    background: #010118;
-    color: #ffffff;
-}
-.contact-item{
-    display: flex;
-    padding: 10px 5px;
-}
-.contact-icon{
-    display: block;
-    width: 30px;
-    font-size: 22px;
-    color: #ffffff;
-}
-.contact-txt{
-    padding-left: 10px;
-    font-size: 18px;
-    color: #010118;
-    text-decoration: none;
-}
-.contact-item .contact-txt:hover{
-    color: #f7c1ac;
-}
 .skills{
     padding-left: 100px;
-}
-.skill{
+}.skill{
     padding: 10px;
-}
-.skills-items .skill::before{
+}.skills-items .skill::before{
     content: '';
     background: url('../img/icons/select.png') 50% 50% no-repeat;
     width: 10px;
@@ -162,12 +195,7 @@ body{
 .code-txt{
     color: #ffffff;
 }
-.edu-txt{
-    padding: 15px 0;
-}
-.edu-txt p{
-    padding: 5px;
-}
+
 .projects{
     margin: 15px 50px;
     padding: 0;
@@ -176,5 +204,46 @@ body{
 .project a{
     color: inherit;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
+}
+.project-items{
+    display: flex;
+}
+.project-item{
+    width: 50%;
+}
+.project-items .title{
+    text-align: left;
+    padding-left: 30px;
+}
+.project span{
+    color: #daa520;
+}
+/**FOOTER***/
+.copyright{
+    font-weight: normal;
+    color: #010118;
+    font-size: 14px;
+}
+.footer-link{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #010118;
+}
+.rsschool-link{
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+}
+.rsscholl-img{
+    width: 100px;
+    height: 40px;    
+}
+@media (max-width: 760px) {
+    .main {
+      width: 100%;
+    }
+    .block-content{
+        display: block;
+    }
 }
