@@ -51,7 +51,7 @@ ____________
 ### Education
 
 - JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT) September 4, 2022
-  > * The Rolling Scopes School *********
+  > * The Rolling Scopes School    
       https://app.rs.school/certificate/bfdjz0tl
 
 - 2008-2013 - Economics and Management faculty 
