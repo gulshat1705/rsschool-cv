@@ -25,10 +25,13 @@ body{
       max-width: 760px;
     }
 }
-.header,
-.footer{
-    background-color: #f7c1ac;
+.header{
+    background-color: #daa520;
     padding: 20px 0;    
+}
+.footer{
+    padding: 20px 0;
+    border-top: 5px solid #010118;
 }
 .title{
     text-align: center;
@@ -150,6 +153,10 @@ body{
 }
 .edu-txt p{
     padding: 5px;
+}
+.certificate{
+    display: block;
+    margin-top: 50px;
 }
 .bold-txt{
     color: #010118;
