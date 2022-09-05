@@ -1,7 +1,7 @@
 # Gulshat Arkytbekova
 
->*Frontend Developer*
-__________
+>### *Frontend Developer*
+
 
 ### Contacts
 - __e-mail:__ <arkytbekovagulshat@gmail.com>
@@ -15,7 +15,7 @@ __________
 ___________
 
 ### About Me
-I am an economist by profession. In recent years I have been working as an accountant. During maternity leave I wanted to learn something new, and on the advice of a friend I decided to learn web development. I began to independently study html, css, I was very interested. But I was not confident in my skills in javascript and went back to accounting but continued to study web development. I have a very strong desire to enter the IT field, and every day I improve my skills in this area.
+I am an economist by profession. In recent years I have been working as an accountant. During maternity leave I wanted to learn something new, and on the advice of a friend I decided to learn web development. I began to independently study html, css, I was very interested. But I was not confident in my skills in javascript and went back to accounting but continued to study web development. I have a very strong desire to enter the IT field, and every day I improve my skills in this area. I am interested in programming and want to develop in the IT field. I am hardworking, responsible. I treat any tasks very responsibly, I am persistent, I think in programming persistence and responsibility is the most important skill.
 
 ____________
 
@@ -24,44 +24,50 @@ ____________
 - CSS3
 - Figma
 - Adobe Photoshop(basic)
-- JavaScript(basic)
+- JavaScript
 - Bootstrap
-- Vue(basic)
 - Git
-- JQuery
 
 ____________
 
 ### Code example
 ```
-function sum(a, b) {
-  return a + b;
-}
-let result = sum(1, 2);
+function recycle(array) {
+    let sorted = {paper: [], glass: [], organic: [], plastic: []};
 
-alert( result );
+    for(let property of array) {
+
+        sorted[property.material].push(property.type);
+        
+        if (property.secondMaterial !== undefined)
+            sorted[property.secondMaterial].push(property.type);
+    }
+    return [sorted['paper'], sorted['glass'], sorted['organic'], sorted['plastic']];
+
+}
 ```
 ____________
 
 ### Education
-- 2013 - Bachelor's degree - Kyrgyz-Turkish University Manas / Economics and Management faculty
 
+- JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT) September 4, 2022
+  >### *The Rolling Scopes School    https://app.rs.school/certificate/bfdjz0tl
+
+- 2008-2013 - Economics and Management faculty 
+  >### *Bachelor's degree - Kyrgyz-Turkish University Manas*
 
 ____________
 
 ### Experience
-- Accountant - 3 years
 - freelance work
     - <https://www.meshki.kg>
 - academic work
     - <https://www.creative.kg>
+
+- Accountant - 3 years    
 
 ____________
 
 ### Languages
  - English - A2
  - Turkish - fluent
-
-
-
-
