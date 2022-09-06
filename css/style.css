@@ -1,6 +1,6 @@
-/*font-family: 'Joan', serif;
+/* /*font-family: 'Joan', serif;
 font-family: 'Rajdhani', sans-serif*/
-*{
+/* *{
     box-sizing: border-box;
 }
 html {
@@ -41,7 +41,7 @@ body{
     text-transform: uppercase;
 }
 /***START MENU***/
-.main-nav{
+/* .main-nav{
     text-align: right;
 }
 .menu__item{
@@ -61,7 +61,7 @@ body{
     color: #ffffff;
 }
 /***START AVATAR BLOCK***/
-.profile{
+/* .profile{
     display: flex;
     flex-wrap: wrap;
 }
@@ -113,7 +113,7 @@ body{
     background-color: rgba(218, 165, 32, 0.7);
 }
 /***LEFT BLOCK **/
-.left-aside{
+/* .left-aside{
     background: #daa520;
     margin-right: 15px;
     padding: 10px;
@@ -164,7 +164,7 @@ body{
     font-weight: 400;
 }
 /***MAIN BLOCK**/
-.tight-border{
+/* .tight-border{
     display: block;
     width: 100%;
     margin: 15px -50px 15px -15px;
@@ -227,7 +227,7 @@ body{
     color: #daa520;
 }
 /**FOOTER***/
-.copyright{
+/* .copyright{
     font-weight: normal;
     color: #010118;
     font-size: 14px;
@@ -253,4 +253,4 @@ body{
     .block-content{
         display: block;
     }
-}
+} */
