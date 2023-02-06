@@ -63,7 +63,7 @@ ____________
 - freelance work
     - <https://www.meshki.kg>
 - academic work
-    - <https://www.creative.kg>
+    - <https://creative.kg/>
 
 - Accountant - 3 years    
 
